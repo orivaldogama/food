@@ -2,9 +2,9 @@ import Head from 'next/head'
 import { Poppins } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   subsets: ['latin'],
-  weight: ["400", "500", "600", "700", "800", "900"]
+  weight: ['400', '500', '600', '700', '800', '900']
 })
 
 export default function Home() {
