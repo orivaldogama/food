@@ -20,18 +20,19 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#CF4A4A" />
       </Head>
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <img
+            src="/images/logo.jpg"
+            alt="burguito logo com uma imagem de um pão de hamburguer com o nome no centro"
+          />
+        </div>
+        <i>
+          <HiOutlineBell style={{ fontSize: 30 }} />
+        </i>
+      </header>
       <main className={`${styles.main} ${poppins.className}`}>
-        <header className={styles.header}>
-          <div className={styles.logo}>
-            <img
-              src="/images/logo.jpg"
-              alt="burguito logo com uma imagem de um pão de hamburguer com o nome no centro"
-            />
-          </div>
-          <i>
-            <HiOutlineBell style={{ fontSize: 30 }} />
-          </i>
-        </header>
+        <h1>Main</h1>
       </main>
     </>
   )
