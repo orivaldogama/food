@@ -10,9 +10,9 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <>
+    <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title></title>
         <meta name="description" content="Fastfood e delivery de qualidade" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="/images/icons/icon-512x512.png" />
@@ -34,6 +34,6 @@ export default function Home() {
       <main className={`${styles.main} ${poppins.className}`}>
         <h1>Main</h1>
       </main>
-    </>
+    </div>
   )
 }
